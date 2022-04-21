@@ -34,10 +34,10 @@ delete ptk;
 	delete ps; // SpecialString的析构未被调用，*ps的SpecialString资源会泄露
 	```
 4. 令抽象类带一个纯虚析构函数十分便利，但必须为这个纯虚函数提供一个定义，由于析构函数的运作方式是先调用 most derived 的析构函数，再调用每个 base class 的析构函数，层层向外。
-```cpp
-class AWOV {
-public:
-	virtual ~AWOV() = 0; //声明纯虚析构
-};
-AWOV::~AWOV() { } //纯虚析构定义
-```
+	```cpp
+	class AWOV {
+	public:
+		virtual ~AWOV() = 0; //声明纯虚析构
+	};
+	AWOV::~AWOV() { } //纯虚析构定义
+	```
