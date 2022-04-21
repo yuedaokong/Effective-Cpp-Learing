@@ -36,7 +36,7 @@ class HomeForSale: private Uncopyable {
 ```cpp
 class HomeForSale {
 public:
-  ...
+  	...
 	HomeForSale(const HomeForSale&) = delete;
 	HomeForSale& operator=(const HomeForSale&) = delete;
 };
