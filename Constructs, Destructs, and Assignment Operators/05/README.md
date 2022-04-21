@@ -17,10 +17,10 @@ public:
 需自定义拷贝赋值函数的情况
 1. 类中内含 reference 成员时，虽然可以将一个新值赋予一个引用成员，但这样做改变的是引用指向的对象的值，而不是引用本身，赋值后引用仍然指向赋值之前的值；
 
-`std::string& namsValue;`
+	`std::string& namsValue;`
 
 2. 类中内含 const 成员时，因为 const 不允许更改；
 
-`cosnt T objectValue;`
+	`cosnt T objectValue;`
 
 3. 如果基类的拷贝赋值函数声明为 private，派生类生成的默认拷贝赋值函数无法处理基类成员。
