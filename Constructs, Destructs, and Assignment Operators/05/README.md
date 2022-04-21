@@ -20,5 +20,7 @@ public:
 `std::string& namsValue;`
 
 2. 类中内含 const 成员时，因为 const 不允许更改；
+
 `cosnt T objectValue;`
+
 3. 如果基类的拷贝赋值函数声明为 private，派生类生成的默认拷贝赋值函数无法处理基类成员。
