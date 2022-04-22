@@ -43,7 +43,7 @@
 		std::size_t numDisks() const;
 		... 
 	};
-	//extern FileSystem tfs;
+	//extern FileSystem tfs; //non-local static
 	FileSystem& tfs() //以 local static 对象替换 non-local-static 对象
 	{
 		static FileSystem fs;
