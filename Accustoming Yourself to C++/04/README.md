@@ -13,12 +13,12 @@
 - 内置类型以外的，在构造函数进行初始化，注意赋值和初始化是不同的，初始化发生在赋值之前。
 	```cpp
 	ABEntry::ABEntry(const std::string& name, const std::string& address,
-									 const std::list<PhoneNumber>& phones)
-									:theName(name),
-									 theAddress(address),
-									 thePhones(phones),
-									 numTimeconsulted(0) //初始化列表 
-									 { }
+			  const std::list<PhoneNumber>& phones)
+			 :theName(name),
+			  theAddress(address),
+			  thePhones(phones),
+			  numTimeconsulted(0) //初始化列表 
+			  { }
 	```
 	注：
   1. 总是在初始化列表中列出所有成员变量，以免还得记住哪些成员变量可以无需初始化。
