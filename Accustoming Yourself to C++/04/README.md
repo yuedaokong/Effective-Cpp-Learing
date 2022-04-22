@@ -43,7 +43,7 @@
 		std::size_t numDisks() const;
 		... 
 	};
-	//extern FileSystem tfs; //non-local static
+	//extern FileSystem tfs; //non-local-static
 	FileSystem& tfs() //以 local static 对象替换 non-local-static 对象
 	{
 		static FileSystem fs;
@@ -71,7 +71,7 @@
 	
 	返回一个 reference 指向 local static 对象，可以保证获得一个历经初始化的对象；
 	
-	在未调用 non-local static 对象的 local static 函数时，不会发生构造和析构成本。
+	在未调用 non-local-static 对象的 local static 函数时，不会发生构造和析构成本。
 	
 	注：
   
