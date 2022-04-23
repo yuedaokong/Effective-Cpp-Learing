@@ -44,7 +44,7 @@ public:
 	: Transaction(createLogString(parameters)) { ... }
 	...
 private:
-	static std::string createLogString(parameters);
+	static std::string createLogString(parameters); //静态函数，保证不会指向未初始化对象
 }
 
 BuyTransaction b;
