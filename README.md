@@ -16,12 +16,12 @@
 - 11 [在 operator= 中处理 “自我赋值”](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Constructs,%20Destructs,%20and%20Assignment%20Operators/11)
 - 12 [复制对象时勿忘其每个成分](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Constructs,%20Destructs,%20and%20Assignment%20Operators/12)
 
-3. [资源管理]
-- 13 [以对象管理资源]
-- 14 [在资源管理类中小心 *copying* 行为]
-- 15 [在资源管理类中提供对原始资源的访问]
-- 16 [成对使用 new 和 delete 时要采用相同形式]
-- 17 [以独立语句将 newed 对象置入智能指针]
+3. [资源管理](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Resource%20Management)
+- 13 [以对象管理资源](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Resource%20Management/13)
+- 14 [在资源管理类中小心 *copying* 行为](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Resource%20Management/14)
+- 15 [在资源管理类中提供对原始资源的访问](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Resource%20Management/15)
+- 16 [成对使用 new 和 delete 时要采用相同形式](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Resource%20Management/16)
+- 17 [以独立语句将 newed 对象置入智能指针](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Resource%20Management/17)
 
 4. [设计与声明]
 - 18 [让接口容易被正确使用，不易被误用]
