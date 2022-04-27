@@ -1,4 +1,4 @@
-补充 [const 用法总结](https://github.com/yuedaokong/Effective-Cpp-Learing/blob/main/Accustoming%20Yourself%20to%20C%2B%2B/02/const%E7%94%A8%E6%B3%95%E6%80%BB%E7%BB%93.md) [enum 用法总结](https://github.com/yuedaokong/Effective-Cpp-Learing/blob/main/Accustoming%20Yourself%20to%20C%2B%2B/02/enum%E7%94%A8%E6%B3%95%E6%80%BB%E7%BB%93.md)
+补充 [const 用法总结](https://github.com/yuedaokong/Effective-Cpp-Learing/blob/main/Accustoming%20Yourself%20to%20C%2B%2B/02/const%E7%94%A8%E6%B3%95%E6%80%BB%E7%BB%93.md) [enum 用法总结](https://blog.csdn.net/qq_39344285/article/details/115206889?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165102658816781483759880%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165102658816781483759880&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-115206889-null-null-2~all~top_click~default-2-115206889.142^v9^control,157^v4^control&utm_term=enum&spm=1018.2226.3001.4187)
 
 ### 用常量替换 #define
 `#define ASPECT_RATIO 1.653` 
