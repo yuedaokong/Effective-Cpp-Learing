@@ -23,15 +23,15 @@
 - 16 [成对使用 new 和 delete 时要采用相同形式](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Resource%20Management/16)
 - 17 [以独立语句将 newed 对象置入智能指针](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Resource%20Management/17)
 
-4. [设计与声明]
-- 18 [让接口容易被正确使用，不易被误用]
-- 19 [设计 class 犹如设计 type]
-- 20 [宁以 pass-by-reference-to-const 替换 pass-by-value]
-- 21 [必须返回对象时，别妄想返回其 reference]
-- 22 [将成员变量声明为 private]
-- 23 [宁以 non-number、non-friend 替换 member 函数]
-- 24 [若所有参数皆需类型转换，请以此采用 non-member 函数]
-- 25 [考虑写出一个不抛出异常的 swap 函数]
+4. [设计与声明](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Designs%20and%20Declarations)
+- 18 [让接口容易被正确使用，不易被误用](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Designs%20and%20Declarations/18)
+- 19 [设计 class 犹如设计 type](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Designs%20and%20Declarations/19)
+- 20 [宁以 pass-by-reference-to-const 替换 pass-by-value](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Designs%20and%20Declarations/20)
+- 21 [必须返回对象时，别妄想返回其 reference](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Designs%20and%20Declarations/21)
+- 22 [将成员变量声明为 private](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Designs%20and%20Declarations/22)
+- 23 [宁以 non-number、non-friend 替换 member 函数](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Designs%20and%20Declarations/23)
+- 24 [若所有参数皆需类型转换，请以此采用 non-member 函数](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Designs%20and%20Declarations/24)
+- 25 [考虑写出一个不抛出异常的 swap 函数](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Designs%20and%20Declarations/25)
 
 5. [实现]
 - 26 [尽可能延后变量定义式的出现时间]
