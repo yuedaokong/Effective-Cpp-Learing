@@ -5,7 +5,7 @@
 - 构造函数与赋值函数的差别
 - 拷贝构造函数的实现
 - 进行错误检查，抛出异常
-- 继承自一个父类，要考虑受到的约束 virtual 或 non-virtual 的影响；自身作为父类，考虑声明的函数，[尤其是析构函数，是否为 virtual](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Constructs,%20Destructs,%20and%20Assignment%20Operators/07)
+- 继承自一个基类，要考虑受到的约束 virtual 或 non-virtual 的影响；自身作为基类，考虑声明的函数，[尤其是析构函数，是否为 virtual](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Constructs,%20Destructs,%20and%20Assignment%20Operators/07)
 - 与其他 types 之间的转换，[隐式转换的编写](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Resource%20Management/15)
 - 类内该声明那些函数和操作符
 - [不需要哪些默认函数，要声明为 private](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Constructs,%20Destructs,%20and%20Assignment%20Operators/06)
