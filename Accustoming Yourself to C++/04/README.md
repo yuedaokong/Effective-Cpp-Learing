@@ -36,6 +36,7 @@
 - 为免除 “ 跨编译单元的初始化顺序” 问题，以 local static 对象替换 non-local-static 对象。
 
   这里的 static 指从构造出来直到程序结束为止的量，例如 global 对象、定义于 namespace 作用域的对象、在 classes 内、在函数内、以及在 file 作用域内被声明为 static 的对象。
+  函数内的 static 对象称为 local static 对象，其他 static 对象称为 non-local static 对象。
 	```cpp
 	class FileSystem { 
 	public:
