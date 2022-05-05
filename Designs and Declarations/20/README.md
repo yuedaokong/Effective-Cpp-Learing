@@ -23,9 +23,10 @@
   WindowWithScrollBars wwsb;
   printNameAndDisplay(wwsb);
   ```
-  上述程序，wwsb 在调用 printNameAndDisplay 函数时，w 为 Window 类型，不论传入什么类型，display 始终调用 Window::display，发生对象切割。
+    上述程序，wwsb 在调用 printNameAndDisplay 函数时，w 为 Window 类型，不论传入什么类型，display 始终调用 Window::display，
+    发生对象切割。
 
-  以 by -reference-to-const 的方式，可避免对象切割。
+    以 by -reference-to-const 的方式，可避免对象切割。
   ```cpp
   void printNameAndDisplay(const Window& w)
   {
