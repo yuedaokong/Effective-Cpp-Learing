@@ -33,13 +33,13 @@
 - 24 [若所有参数皆需类型转换，请以此采用 non-member 函数](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Designs%20and%20Declarations/24)
 - 25 [考虑写出一个不抛出异常的 swap 函数](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Designs%20and%20Declarations/25)
 
-5. [实现]
-- 26 [尽可能延后变量定义式的出现时间]()
-- 27 [尽量少做转型动作]
-- 28 [避免返回 handles 指向对象内部成分]
-- 29 [为 “异常安全” 而努力是值得的]
-- 30 [透彻了解 inlining 的里里外外]
-- 31 [将文件间的编译依存关系降到最低]
+5. [实现](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Implementations)
+- 26 [尽可能延后变量定义式的出现时间](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Implementations/26)
+- 27 [尽量少做转型动作](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Implementations/27)
+- 28 [避免返回 handles 指向对象内部成分](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Implementations/28)
+- 29 [为 “异常安全” 而努力是值得的](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Implementations/29)
+- 30 [透彻了解 inlining 的里里外外](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Implementations/30)
+- 31 [将文件间的编译依存关系降到最低](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Implementations/31)
 
 6. [继承与面向对象设计]
 - 32 [确定你的 public 继承塑模出 **is-a** 关系]
