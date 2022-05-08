@@ -11,7 +11,7 @@ public:
 	Customer& operator=(const Customer& rhs);
 	...
 private:
-	std;:string name;
+	std::string name;
 	//Date lastTransaction;
 };
 Customer::Customer(const Customer& rhs)
