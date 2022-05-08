@@ -68,7 +68,7 @@
 - 51 [编写 new 和 delete 时需固守常规]
 - 52 [写了 *placement* new 也要写 *placement* delete]
 
-9. [杂项讨论]      
-- 53 [不要轻忽编译器的警告]
-- 54 [让自己熟悉包括 TR1 在内的标准程序库]
-- 55 [让自己熟悉 Boost]
+9. [杂项讨论](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Miscellany)      
+- 53 [不要轻忽编译器的警告](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Miscellany/53)
+- 54 [让自己熟悉包括 TR1 在内的标准程序库](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Miscellany/54)
+- 55 [让自己熟悉 Boost](https://github.com/yuedaokong/Effective-Cpp-Learing/tree/main/Miscellany/55)
