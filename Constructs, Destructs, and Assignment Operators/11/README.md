@@ -32,7 +32,7 @@ Widget& Widget::operator=(const Widget& rhs)
 ```
 其中 operator= 函数中 *this 和 rhs 有可能是同一个对象，delete 销毁后，指针指向一个已删除的对象。
 
-- 欲阻止这种错误，传统做法是加入**证同测试（identify test）**达到自我赋值的目的：
+- 欲阻止这种错误，传统做法是加入**证同测试（identify test）** 达到自我赋值的目的：
 	```cpp
 	Widget& Widget::operator=(const Widget& rhs)
 	{
